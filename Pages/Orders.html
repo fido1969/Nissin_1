@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orders</title>
+    <style>
+        table,
+        th,
+        td,
+        caption {
+            border-width: 1px;
+            border-style: double;
+            border-color: brown;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,6 +30,37 @@
             <a href="/Pages/Products.html">Products</a>
         </li>
     </ul>
+
+    <table>
+        <caption>Névsor</caption>
+        <thead>
+            <th>Keresztnév</th>
+            <th>Vezetéknév</th>
+            <th>Életkor</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nagy</td>
+                <td>Lajos</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>Kiss</td>
+                <td>Anna</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Meggy</td>
+                <td>Elek</td>
+                <td>15</td>
+            </tr>
+        <tfoot>
+            <tr>
+                <td colspan="3"> Vége</td>
+            </tr>
+        </tfoot>
+        </tbody>
+    </table>
 </body>
 
 </html>
